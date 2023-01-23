@@ -1,0 +1,413 @@
+.app_body{
+    background-image: url(../../src/img/background.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'myFirstFont', Fallback, sans-serif;
+    text-shadow: 2px 2px 4px  black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.columnOne__container,
+.ColumnThree__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+.columnOne__container{
+    align-items: flex-end;
+    margin-top: 35px;
+}
+.itemSlider__container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.itemSlider__container_slider__bg{
+    background-image: url(../img/sliderBackground.png);
+    background-size: cover;
+    width: 320px;
+    height: 165px;
+    margin: 0 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow :hidden;
+}
+.itemSlider__container_sliderItemsList{
+    background-color: rgba(0,0,0,0.5s);
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemSlider__container_prev__btn,
+.itemSlider__container_next__btn{
+    cursor: pointer;
+    animation: 0.5s ease-in ease-in-out infinite;
+    outline: none;
+    font-size: 25px;
+}
+.itemSlider__container_prev__btn:active,
+.itemSlider__container_next__btn:active{
+    transform: scale(0.9);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics1,
+.itemSlider__container_sliderItemsList_itemDisplayedPics2,
+.itemSlider__container_sliderItemsList_itemDisplayedPics3,
+.itemSlider__container_sliderItemsList_itemDisplayedPics4,
+.itemSlider__container_sliderItemsList_itemDisplayedPics5,
+.itemSlider__container_sliderItemsList_itemDisplayedPics6,
+.itemSlider__container_sliderItemsList_itemDisplayedPics7,
+.itemSlider__container_sliderItemsList_itemDisplayedPics8,
+.itemSlider__container_sliderItemsList_itemDisplayedPics9,
+.itemSlider__container_sliderItemsList_itemDisplayedPics10,
+.itemSlider__container_sliderItemsList_itemDisplayedPics11,
+.itemSlider__container_sliderItemsList_itemDisplayedPics12,
+.itemSlider__container_sliderItemsList_itemDisplayedPics13,
+.itemSlider__container_sliderItemsList_itemDisplayedPics14,
+.itemSlider__container_sliderItemsList_itemDisplayedPics15,
+.itemSlider__container_sliderItemsList_itemDisplayedPics16,
+.itemSlider__container_sliderItemsList_itemDisplayedPics17,
+.itemSlider__container_sliderItemsList_itemDisplayedPics18,
+.itemSlider__container_sliderItemsList_itemDisplayedPics19{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics0,
+.itemDetailBox__container_itemPicture0{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: 0px 0px;
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics1,
+.itemDetailBox__container_itemPicture1{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -80px 0px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics2,
+.itemDetailBox__container_itemPicture2{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -160px 0px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics3,
+.itemDetailBox__container_itemPicture3{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -240px 0px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics4,
+.itemDetailBox__container_itemPicture4{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -320px 0px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics5,
+.itemDetailBox__container_itemPicture5{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: 0px -80px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics6,
+.itemDetailBox__container_itemPicture6{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -80px -80px;
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics7,
+.itemDetailBox__container_itemPicture7{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -160px -80px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics8,
+.itemDetailBox__container_itemPicture8{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -240px -80px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics9,
+.itemDetailBox__container_itemPicture9{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -320px -80px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics10,
+.itemDetailBox__container_itemPicture10{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: 0px -160px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics11,
+.itemDetailBox__container_itemPicture11{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -80px -160px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics12,
+.itemDetailBox__container_itemPicture12{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -160px -160px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics13,
+.itemDetailBox__container_itemPicture13{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -240px -160px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics14,
+.itemDetailBox__container_itemPicture14{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -320px -160px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics15,
+.itemDetailBox__container_itemPicture15{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: 0px -240px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics16,
+.itemDetailBox__container_itemPicture16{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -80px -240px;
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics17,
+.itemDetailBox__container_itemPicture17{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -160px -240px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics18,
+.itemDetailBox__container_itemPicture18{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -240px -240px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics19,
+.itemDetailBox__container_itemPicture19{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    background-position: -320px -240px; 
+    background-image: url(../img/sprite_tools.png);
+}
+.itemSlider__container_sliderItemsList_itemDisplayedPics0,
+.itemSlider__container_sliderItemsList_itemDisplayedPics1,
+.itemSlider__container_sliderItemsList_itemDisplayedPics2,
+.itemSlider__container_sliderItemsList_itemDisplayedPics3,
+.itemSlider__container_sliderItemsList_itemDisplayedPics4,
+.itemSlider__container_sliderItemsList_itemDisplayedPics5,
+.itemSlider__container_sliderItemsList_itemDisplayedPics6,
+.itemSlider__container_sliderItemsList_itemDisplayedPics7,
+.itemSlider__container_sliderItemsList_itemDisplayedPics8,
+.itemSlider__container_sliderItemsList_itemDisplayedPics9,
+.itemSlider__container_sliderItemsList_itemDisplayedPics10,
+.itemSlider__container_sliderItemsList_itemDisplayedPics11,
+.itemSlider__container_sliderItemsList_itemDisplayedPics12,
+.itemSlider__container_sliderItemsList_itemDisplayedPics13,
+.itemSlider__container_sliderItemsList_itemDisplayedPics14,
+.itemSlider__container_sliderItemsList_itemDisplayedPics15,
+.itemSlider__container_sliderItemsList_itemDisplayedPics16,
+.itemSlider__container_sliderItemsList_itemDisplayedPics17,
+.itemSlider__container_sliderItemsList_itemDisplayedPics18,
+.itemSlider__container_sliderItemsList_itemDisplayedPics19{
+    position: absolute;
+    margin-right: 0;
+}
+
+
+.itemSlider__container_sliderItemsList_itemDisplayedPicswood_sword{
+    top: 180px;
+    background-position:  -160px -160px;
+}
+
+
+.hidden{
+    display: none;
+}
+.active{
+    display: block;
+}
+
+.centerZone__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.Wallet__container{
+    background-image: url(../../src/img/WalletBackground.png);
+    background-size: cover;
+    width: 128px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    top: 0;
+    left: 15%;
+    text-shadow: none;
+}
+.Wallet__container_myMoneyCounter{
+    padding: 5px 15px;
+    background: #fafad2;
+}
+  .borders {
+    position: relative;
+    border: 3px solid #e5ae22;
+  }
+  .borders:after {
+    content: " ";
+    z-index: -1;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    background: #fafad2;
+  }
+
+/* ItemBox CSS */
+.itemDetailBox__container{
+    background-image: url(../../src/img/itemboxBackground.png);
+    background-size: contain;
+    width: 320px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+    text-shadow: none;
+}
+.itemDetailBox__container_itemName{
+margin: 35px;
+margin-top: -15px;
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase;
+}
+.itemDetailBox__container_itemProperty{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.itemDetailBox__container_itemPicture{
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/sprite_tools.png);
+    margin-right: 20px;
+    
+}
+.itemDetailBox__container_itemStats{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;  
+}
+.itemDetailBox__container_itemStats_integrity,
+.itemDetailBox__container_itemStats_damage,
+.itemDetailBox__container_itemStats_cost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.itemDetailBox__container_itemStats_integrity>p,
+.itemDetailBox__container_itemStats_damage>p,
+.itemDetailBox__container_itemStats_cost>p{
+    margin-right: 35px;
+    
+}
+.itemDetailBox__container_itemStats_integrity>p,
+.itemDetailBox__container_itemStats_damage>p,
+.itemDetailBox__container_itemStats_cost>p{
+    margin: 5px 35px 5px 0;
+}
+.itemDetailBox__container_itemStats_integrity>span,
+.itemDetailBox__container_itemStats_damage>span,
+.itemDetailBox__container_itemStats_cost>span{
+    background-color: #418c51;
+    color: white;
+    padding: 2px;
+}
+.buyBtn__Container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(../../src/img/buyBtnBackground.png);
+    background-size: cover;
+    width: 320px;
+    height: 60px;
+    cursor: pointer;
+    animation: 0.5s ease-in ease-in-out infinite;
+    margin-top: 15px;
+}
+.buyBtn__Container:hover{
+    filter: contrast(125%) brightness(105%)
+}
+.buyBtn__Container:active{
+    transform: scale(0.9);
+}
