@@ -11,9 +11,6 @@ function ColumnTwo() {
 
     const dispatch = useDispatch()
     //   recupération de ma database dans le store redux  
-    // let viewBuy = useSelector((state)=>{
-    //     return state[BUY_KEY]
-    //     })
     
     const viewBuy = useSelector(state => state.items)
     const [itemDisplay, setItemDisplay] = useState(0);
@@ -71,6 +68,7 @@ function ColumnTwo() {
     if(dataArray.length >= 0){
         var itemList = itemsData
         dispatch({type:"DECREMENT", payload: itemList[0].cost})
+
         itemList.splice(dataArray[0], 1)
         // console.log('itemListAfterSlice :' + (JSON.stringify(itemList)))
         setDataArray(dataArray => [...dataArray, itemList])
